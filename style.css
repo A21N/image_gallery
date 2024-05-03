@@ -1,0 +1,55 @@
+
+body {
+    background-color: rgb(5, 12, 44);
+}
+section {
+    display: flex;
+    height: 80vh;
+    margin: 0 auto;
+    align-items: center;
+    width: 80%;
+}
+
+#select-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100%;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+}
+
+.show-here {
+    margin: 0 auto;
+   width: 500px;
+   height: 500px;
+   
+}
+
+#gallery img {
+    height: 80%;
+    width: 80%;
+}
+
+#select-gallery img{
+    width: 15%;
+    height: 100%;
+    padding: 10px 5px;
+}
+
+#names {
+    display: flex;
+    justify-content: center;
+    color: azure;
+}
+
+#select-gallery img:hover {
+    opacity: 0.5;
+}
+
+
